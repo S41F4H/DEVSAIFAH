@@ -16,6 +16,6 @@ async def on_ready():
 
 @bot.command()
 async def test(ctx):
-    await ctx.send("บอทพร้อมทำงานแล้ว!")
+    await ctx.send("บอทพร้อมทำงานแล้ว")
 
 bot.run(TOKEN)
